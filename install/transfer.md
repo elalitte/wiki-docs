@@ -34,7 +34,7 @@ docker exec db pg_dump wiki -U wiki -F c > wikibackup.dump
 > In the above command, the PostgreSQL docker container is named `db` and we're using the database name `wiki` and user `wiki`. This is the default if you followed the tutorial mentionned in the Getting Started section above.
 {.is-info}
 
-This will create a new file `wikibackup.sql` in the current directory.
+This will create a new file `wikibackup.dump` in the current directory.
 
 # 3. Transfer Backup
 
